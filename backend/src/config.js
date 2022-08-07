@@ -12,7 +12,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 1,
     layersOrder: [
       { name: "Background" },
       { name: "Portrait" },
@@ -43,19 +43,70 @@ const extraMetadata = {
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
 
+const gif = {
+  export: false,
+  repeat: 0,
+  quality: 100,
+  delay: 500,
+};
+
+const text = {
+  only: false,
+  color: "#ffffff",
+  size: 20,
+  xGap: 40,
+  yGap: 40,
+  align: "left",
+  baseline: "top",
+  weight: "regular",
+  family: "Courier",
+  spacer: " => ",
+};
+
+const pixelFormat = {
+  ratio: 2 / 128,
+};
+
+const background = {
+  generate: true,
+  brightness: "80%",
+  static: false,
+  default: "#000000",
+};
+
 const rarityDelimiter = "#";
+
+const uniqueDnaTorrance = 10000;
+
+const preview = {
+  thumbPerRow: 5,
+  thumbWidth: 50,
+  imageRatio: format.height / format.width,
+  imageName: "preview.png",
+};
+
+const preview_gif = {
+  numberOfImages: 5,
+  order: "ASC", // ASC, DESC, MIXED
+  repeat: 0,
+  quality: 100,
+  delay: 500,
+  imageName: "preview.gif",
+};
 
 module.exports = {
   format,
   baseUri,
   description,
+  uniqueDnaTorrance,
   layerConfigurations,
   rarityDelimiter,
   shuffleLayerConfigurations,
   debugLogs,
   extraMetadata,
+  text,
   namePrefix,
   network,
   AUTH,
-  LIMIT
+  LIMIT,
 };
