@@ -43,7 +43,7 @@ async function main() {
     const options = {
       method: "POST",
       headers: {
-        Authorization: "d3315072-5b01-4288-b5a9-afb9677d08f5"
+        Authorization: process.env.NFTPORT_API_KEY
       },
       body: formData,
     };
