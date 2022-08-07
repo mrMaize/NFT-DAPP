@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52dbcc3-af1f-470b-80e9-c21d5c31ebaa" name="Default Changelist" comment="боевой контракт&#10;изменения UI текстовок" />
+    <list default="true" id="c52dbcc3-af1f-470b-80e9-c21d5c31ebaa" name="Default Changelist" comment="removed useless code for config&#10;replaced AUTH headers with .env export&#10;updated .gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.js" afterDir="false" />
+    </list>
+    <list id="e6249b35-b481-44fe-803b-96df9064e55f" name="patch" comment="patch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b64d59a89404e2a97a7d93ff2b9b6a0ab154dc0e" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -19,8 +32,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/backend/src/config.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/js/app.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/config.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Ahw8MMJACdYKSFN2rFn8YC2XcF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,6 +51,7 @@
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v16.15.1/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="vcs.patch.to.clipboard" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,8 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +101,7 @@
       <workItem from="1658241834037" duration="961000" />
       <workItem from="1658844411922" duration="1489000" />
       <workItem from="1659294972427" duration="161000" />
+      <workItem from="1659905789198" duration="1604000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655922957350</created>
@@ -162,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657192097401</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="removed useless code for config&#10;replaced AUTH headers with .env export&#10;updated .gitignore file">
+      <created>1659902201297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659902201297</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +198,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="refactoring_branch" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -191,6 +248,8 @@
     <MESSAGE value="new rinkeby contract" />
     <MESSAGE value="новый контракт&#10;обновления по фронту" />
     <MESSAGE value="боевой контракт&#10;изменения UI текстовок" />
-    <option name="LAST_COMMIT_MESSAGE" value="боевой контракт&#10;изменения UI текстовок" />
+    <MESSAGE value="removed useless code for config&#10;replaced AUTH headers with .env export&#10;updated .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed useless code for config&#10;replaced AUTH headers with .env export&#10;updated .gitignore file" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>
