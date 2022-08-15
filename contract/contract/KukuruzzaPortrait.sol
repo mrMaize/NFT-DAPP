@@ -1237,9 +1237,9 @@ contract KukuruzzaPortrait is ERC721Enumerable, Ownable {
 
     string baseURI;
     string public baseExtension = "";
-    uint256 public cost = 10 ether;
-    uint256 public maxSupply = 500;
-    uint256 public maxMintAmount = 10;
+    uint256 public cost = 0.01 ether;
+    uint256 public maxSupply = 10;
+    uint256 public maxMintAmount = 2;
     bool public paused = false;
     bool public revealed = true;
     string public notRevealedUri;
