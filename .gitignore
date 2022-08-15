@@ -2,4 +2,7 @@
 .env
 
 # workspace.xml
-workspace.xml
+/.idea
+
+# /backend/build/
+/backend/build/

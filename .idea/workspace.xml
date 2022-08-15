@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52dbcc3-af1f-470b-80e9-c21d5c31ebaa" name="Default Changelist" comment="removed useless code for config&#10;replaced AUTH headers with .env export&#10;updated .gitignore file">
+    <list default="true" id="c52dbcc3-af1f-470b-80e9-c21d5c31ebaa" name="Default Changelist" comment="SmartContract added&#10;refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/constants.js" afterDir="false" />
     </list>
     <list id="e6249b35-b481-44fe-803b-96df9064e55f" name="patch" comment="patch" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +101,7 @@
       <workItem from="1658844411922" duration="1489000" />
       <workItem from="1659294972427" duration="161000" />
       <workItem from="1659905789198" duration="1604000" />
+      <workItem from="1660572010129" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655922957350</created>
